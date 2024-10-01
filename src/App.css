@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-icon {
+  height: 50px;
+  width: 250px;
+  background-color: red;
+}
+.startup-text{
+  margin-top: 50px;
+  color: #E28000;
+}
+
+.nav-list {
+  /* height: 50px;
+  width: 250px; */
+ background-color: rgb(176, 223, 49);
+ 
+}
+ul{
+  display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ gap: 20px;
+ list-style-type: none;
+}
+.join-us-button{
+  padding: .5em;
+  background-color: #E28000;
+  border-radius: 5px;
+  color: white;
+}
