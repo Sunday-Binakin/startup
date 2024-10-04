@@ -1,5 +1,7 @@
  
 import './App.css'
+import Features from './components/Features'
+import Form from './components/Form'
 
 function App() {
   
@@ -21,6 +23,8 @@ function App() {
           </div>
         </nav>
        </header>
+       <Features/>
+       <Form/>
     </>
   )
 }
