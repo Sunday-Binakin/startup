@@ -2,6 +2,8 @@
 import './App.css'
 import Features from './components/Features'
 import Form from './components/Form'
+import Overlay from './components/Overlay'
+import Team from './components/Team'
 
 function App() {
   
@@ -23,7 +25,10 @@ function App() {
           </div>
         </nav>
        </header>
+       <Overlay/>
        <Features/>
+       <Team/>
+       
        <Form/>
     </>
   )
